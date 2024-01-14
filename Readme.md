@@ -1,12 +1,13 @@
-```|-app/```
-```|--|projectfile``
-```|-nginx/```
-```|--|conf.d```
-```|----|default.conf```
-```|-php/```
-```|--|Dockerfile```
-```docker-compose.yml```
+<p>app/<br>
+├─ project files<br>
+ngnix/<br>
+├─ conf.d/<br>
+│  ├─ default.conf<br>
+php/<br>
+├─ Dockerfile<br>
+docker-compose.yml</p>
 
+How to run:
 1. clone project into folder *app* exp: 
 - ``composer create-project laravel/laravel app``
 2. docker-compose build
